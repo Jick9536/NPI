@@ -61,7 +61,7 @@
         <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="18" Width="1328" Height="110" Grid.Row="1"><InlineUIContainer>
         		<TextBlock x:Name="Titulo" Text="P2 Kinnect"/>
         	</InlineUIContainer><LineBreak/><InlineUIContainer>
-        		<TextBlock x:Name="Instruccion" Text="Futuras indicaciones" Width="1331" Foreground="Purple" FontSize="36" HorizontalAlignment="Left"/>
+        		<TextBlock x:Name="Instruccion" Text="Futuras indicaciones" Width="1343" Foreground="Purple" FontSize="36" HorizontalAlignment="Left"/>	
         	</InlineUIContainer><LineBreak/><InlineUIContainer>
         		<TextBlock x:Name="Descrip_mov" Text="Explicación movimiento" Width="1343" Foreground="Blue" FontSize="20" Height="62"/>
         	</InlineUIContainer></TextBlock>

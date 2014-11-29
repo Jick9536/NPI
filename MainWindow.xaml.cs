@@ -15,6 +15,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
     using System.Windows.Media.Imaging;
     using System.Linq;
     using System.Globalization;
+ 
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -30,10 +31,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
         private readonly Pen penCyan = new Pen(Brushes.Cyan, 6);
         private readonly Brush puntoCyan = Brushes.Cyan;
 
-
         private readonly Pen penRojo = new Pen(Brushes.Red, 6);
         private readonly Brush puntoRojo = Brushes.Red;
-
 
         private readonly Pen drawPen = new Pen(Brushes.Blue, 6);
 
@@ -135,7 +134,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
         /// <summary>
         /// Thickness of drawn joint lines
         /// </summary>
-        private const double JointThickness = 5;
+        private const double JointThickness = 10;
 
         /// <summary>
         /// Thickness of body center ellipse
@@ -341,6 +340,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                         this.colorPixels,
                         this.colorBitmap.PixelWidth * sizeof(int),
                         0);
+                    
                 }
             }
         }
@@ -380,6 +380,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                         }
                         else if (skel.TrackingState == SkeletonTrackingState.PositionOnly)
                         {
+
                             dc.DrawEllipse(
                             this.centerPointBrush,
                             null,
@@ -437,7 +438,20 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             this.DrawBone(skeleton, drawingContext, JointType.KneeRight, JointType.AnkleRight, drawPen);
             this.DrawBone(skeleton, drawingContext, JointType.AnkleRight, JointType.FootRight, drawPen);*/
 
-            if (ejercicio1) {                
+            if (ejercicio1) {
+
+                //Pintar texto en un punto
+                FormattedText texto = new FormattedText("Hola", CultureInfo.GetCultureInfo("en-us"),
+                                    FlowDirection.LeftToRight, new Typeface("Verdana"), 32, Brushes.Blue);
+                drawingContext.DrawText(texto, puntoAux4);
+
+                //Pintar imagenes
+                Size hola=new Size(100,100);
+                Rect rec=new Rect(puntoAux4,hola);
+                Image img = Image.FromFile("Images//parte1.jpg");
+                ImageDrawing a
+                drawingContext.DrawImage(img, rec);
+
                 Repeticiones.Text = repeticiones.ToString();                
                 //Primera parte: comprobamos que estamos en posición de inicio, relajada
                 if (parte1)
