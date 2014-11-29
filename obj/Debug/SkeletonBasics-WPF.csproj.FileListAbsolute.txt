@@ -30,3 +30,15 @@ C:\Informatica\NPI\Practica2\NPI\obj\Debug\Microsoft.Samples.Kinect.SkeletonBasi
 C:\Informatica\NPI\Practica2\NPI\obj\Debug\SkeletonBasics-WPF.csproj.GenerateResource.Cache
 C:\Informatica\NPI\Practica2\NPI\bin\Debug\SkeletonBasics-WPF.exe
 C:\Informatica\NPI\Practica2\NPI\bin\Debug\SkeletonBasics-WPF.pdb
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\SkeletonBasics-WPF.exe
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\SkeletonBasics-WPF.pdb
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\bin\Debug\SkeletonBasics-WPF.exe
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\bin\Debug\SkeletonBasics-WPF.pdb
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\SkeletonBasics-WPF.csprojResolveAssemblyReference.cache
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\MainWindow.baml
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\MainWindow.g.cs
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\App.g.cs
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\SkeletonBasics-WPF_MarkupCompile.cache
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\SkeletonBasics-WPF.g.resources
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\Microsoft.Samples.Kinect.SkeletonBasics.Properties.Resources.resources
+C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\NPI-Javi_Julio\obj\Debug\SkeletonBasics-WPF.csproj.GenerateResource.Cache

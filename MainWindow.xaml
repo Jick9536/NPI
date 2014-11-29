@@ -58,7 +58,7 @@
             <Run Language="es-es" Text="Based on samples Microsoft Kinnect Co"/>
         </TextBlock>
 
-        <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="18" Width="996" Height="110" Grid.Row="1"><InlineUIContainer>
+        <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="18" Width="1328" Height="110" Grid.Row="1"><InlineUIContainer>
         		<TextBlock x:Name="Titulo" Text="P2 Kinnect"/>
         	</InlineUIContainer><LineBreak/><InlineUIContainer>
         		<TextBlock x:Name="Instruccion" Text="Futuras indicaciones" Width="1331" Foreground="Purple" FontSize="36" HorizontalAlignment="Left"/>
@@ -67,11 +67,11 @@
         	</InlineUIContainer></TextBlock>
 
 
-        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center" Margin="178,145,178,119">
-            <Image x:Name="Image" Width="640" Height="480"/>
+        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center" Margin="178,138,178,80">
+            <Image x:Name="Image" Width="1013" Height="513"/>
         </Viewbox>
-        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center" Margin="178,145,178,119">
-            <Image x:Name="SkeletonImage" Width="640" Height="480"/>
+        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center" Margin="178,138,178,80">
+            <Image x:Name="SkeletonImage" Width="1013" Height="513"/>
         </Viewbox>
 
 
@@ -82,9 +82,14 @@
             <TextBlock Text="Regulador de error" Foreground="Black" Height="23" Margin="43,0,0,0" VerticalAlignment="Top"/>
             <Slider x:Name="Regulador" Minimum="5" Maximum="30" Value="5" Width="108" Height="25"/>
             <Label Name="valor_error" Content="5" Width="32"/>
+
             <Button Content="Reiniciar" Width="75" Margin="35,0,0,0"/>
             <CheckBox Name="checkBoxSeatedMode" Checked="CheckBoxSeatedModeChanged" Unchecked="CheckBoxSeatedModeChanged"/>
-            <TextBlock Name="Repeticiones"  Text="--" Foreground="Blue" Height="76" Width="134" FontSize="48" TextAlignment="Right"/>
+            <TextBlock Name="Repeticiones"  Text="--" Foreground="Blue" Height="76" Width="124" FontSize="48" TextAlignment="Right"/>
+          
+
+
+
 
         </StatusBar>
 
