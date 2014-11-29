@@ -448,8 +448,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 //Pintar imagenes
                 Size hola=new Size(100,100);
                 Rect rec=new Rect(puntoAux4,hola);
-                Image img = Image.FromFile("Images//parte1.jpg");
-                ImageDrawing a
+                //Image img = Image.FromFile("Images//parte1.jpg");
+                ImageDrawing img;
                 drawingContext.DrawImage(img, rec);
 
                 Repeticiones.Text = repeticiones.ToString();                
