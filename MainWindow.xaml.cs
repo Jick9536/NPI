@@ -15,6 +15,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
     using System.Windows.Media.Imaging;
     using System.Linq;
     using System.Globalization;
+
+
  
 
     /// <summary>
@@ -449,8 +451,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 Size hola=new Size(100,100);
                 Rect rec=new Rect(puntoAux4,hola);
                 //Image img = Image.FromFile("Images//parte1.jpg");
-                ImageDrawing img;
-                drawingContext.DrawImage(img, rec);
+                
+               // Image2.Source ="Images/parte1.jpg";
 
                 Repeticiones.Text = repeticiones.ToString();                
                 //Primera parte: comprobamos que estamos en posición de inicio, relajada
