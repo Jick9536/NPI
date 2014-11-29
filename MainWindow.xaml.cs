@@ -680,6 +680,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             {
                 return;
             }
+            //MessageBox.Show("Vamos a empezar con el itinerario consulte las instrucciones en el menu contextual");
             Descrip_mov.Text = "Póngase en posición relajada y los brazos pegados al cuerpo. A continuación suba los brazos hasta ponerlos en cruz. Repita ";
             Descrip_mov.Foreground = Brushes.DarkBlue;
             ejercicio1 = true;
@@ -687,6 +688,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             Itinerario1.Visibility = Visibility.Hidden;
             Itinerario2.Visibility = Visibility.Hidden;
             Itinerario3.Visibility = Visibility.Hidden;
+            Num_repeticiones.Visibility = Visibility.Hidden;
+            mas.Visibility = Visibility.Hidden;
+            menos.Visibility = Visibility.Hidden;
+
+
         }
 
         /// <summary>

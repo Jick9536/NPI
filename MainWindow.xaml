@@ -85,9 +85,9 @@
             <Button Content="Reiniciar" Width="75" Margin="35,0,0,0"/>
             <CheckBox Name="checkBoxSeatedMode" Checked="CheckBoxSeatedModeChanged" Unchecked="CheckBoxSeatedModeChanged"/>
             <TextBlock Height="19" Text="Ajustar número de intentos" Foreground="Black" Margin="43,0,0,0" VerticalAlignment="Top" Width="150"/>
-            <Button  FontSize="22" Content="+" Width="47" Height="49" Margin="0"/>
-            <Label  FontSize="22" Name="Num_repeticiones" Content="0" Height="40"/>
-            <Button FontSize="24" Content="-" Width="47" Height="49"/>
+            <Button x:Name="mas"  FontSize="22" Content="+" Width="37" Height="39" Margin="0"/>
+            <Label FontSize="22" Name="Num_repeticiones" Content="0" Height="40"/>
+            <Button x:Name="menos" FontSize="24" Content="-" Width="37" Height="39"/>
             <TextBlock Name="Repeticiones"  Text="--" Foreground="Blue" Height="76" Width="134" FontSize="48" TextAlignment="Right"/>
         </StatusBar>
 
